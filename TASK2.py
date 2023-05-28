@@ -1,3 +1,12 @@
+QuantumCircuit producing a wrong OpenQASM #10162
+Environment
+Qiskit Terra version: 0.24.0
+Python version: 3.10.8
+Operating system: IBM Quantum Lab
+What is happening?
+A QuantumCircuit is producing an invalid OpenQASM 2.0 output when calling .qasm() method. There is a definition of a subroutine calling itself.
+
+How can we reproduce the issue?
 from qiskit import QuantumCircuit, Aer, execute
 
 def recursive_circuit(qc, depth):
