@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: black;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 400px;
+      margin: 100px auto;
+      background-color: black;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .container h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    .form-group label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .form-group input[type="text"],
+    .form-group input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    .form-group button {
+      background-color: #00f5d4;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body bgcolor = "black">
+<center>
+<h1><i>Login</i></h1>
+</center>
+  <div class="container">
+    <h2><font color = "a98467">Login</font></h2>
+    <form>
+      <div class="form-group">
+        <label for="username"><font color = "00f5d4"><h1><b>Name:</b></h1></font></label>
+        <input type="text" id="username" name="username" placeholder="Enter Name:">
+      </div>
+      <div class="form-group">
+        <label for="password"><font color = "00f5d4"><h1><b>Password:</b></h1></font></label>
+        <input type="password" id="password" name="password" placeholder="Password">
+      </div>
+      <div class="form-group">
+        <button type="submit"><font color = "black">Submit</font></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="Register"><font color = "black">Register</font></button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
